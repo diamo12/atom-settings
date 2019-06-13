@@ -1,0 +1,112 @@
+# Your snippets
+#
+# Atom snippets allow you to enter a simple prefix in the editor and hit tab to
+# expand the prefix into a larger code block with templated values.
+#
+# You can create a new snippet in this file by typing "snip" and then hitting
+# tab.
+#
+# An example CoffeeScript snippet to expand log to console.log:
+#
+# '.source.coffee':
+#   'Console log':
+#     'prefix': 'log'
+#     'body': 'console.log $1'
+#
+# Each scope (e.g. '.source.coffee' above) can only be declared once.
+#
+# This file uses CoffeeScript Object Notation (CSON).
+# If you are unfamiliar with CSON, you can read more about it in the
+# Atom Flight Manual:
+# http://flight-manual.atom.io/using-atom/sections/basic-customization/#_cson
+
+
+#HTML and CSS snippets
+'.text.html.basic':
+  'html skeleton':
+    'prefix':'doctype'
+    'body': '<!doctype html>
+              \n<html>
+              \n<head>
+              \n\t<meta charset="utf-8">
+              \n\t<meta name="" content "">
+              \n\t<title></title>
+              \n\t<link rel="stylesheet" href="">
+              \n</head>
+              \n\n<body>
+              \n\t<div class="pna-page-container" id="Page_Main_Container">
+              \n\t\t<div class="pna-page-wrapper" id="Page_Main_Wrapper">
+              \n
+              \n\t\t</div>
+              \n\t<div>
+              \n
+              \n\t<script type="text/javascript" src="">
+              \n\t</script>
+              \n</body>
+              \n</html>'
+
+  'global box sizing':
+    'prefix':'global box sizing'
+    'body': '.main-container * {\n
+      -webkit-box-sizing: border-box;\n\t
+      -moz-box-sizing: border-box;\n\t
+      box-sizing: border-box;\n\t
+    }'
+
+  'html comment':
+    'prefix':'comment'
+    'body': '<!-- ${1} -->'
+
+  'general container and wrapper':
+    'prefix':'container and wrapper'
+    'body':'<div class="pna-type-container" id="Container-Num">
+            \n\t<div class="pna-type-wrapper" id="Wrapper-Num">
+            \n\t
+            \n\t</div>
+            \n</div>'
+
+  'alt button skeleton using "a" tag':
+    'prefix':'alt button skeleton'
+    'body':'<a class="blank-button" id="Button-Num" href="#" target="_blank" rel="noopener noreferrer">
+            \n\t<img src=""></img>
+            \n\t<p></p>
+            \n</a>'
+
+  'new script for document':
+    'prefix':'new script'
+    'body':'<script type="text/javascript" src=""></script>'
+
+  'new link for document':
+    'prefix':'new link'
+    'body':'<link rel="stylesheet" href="">'
+
+
+
+'.source.css':
+  'cummins red':
+    'prefix':'cummins red'
+    'body': 'rgb(218, 41, 28);'
+
+  'css comment':
+    'prefix':'comment'
+    'body':'/* ${1} */'
+
+
+  'blank class  for css':
+    'prefix':'blank class'
+    'body':'.class-name {}'
+
+  'blank id  for css':
+    'prefix':'blank id'
+    'body':'#ID_Name {}'
+
+
+
+'.source.js':
+  'js comment':
+    'prefix': 'comment'
+    'body':'// ${1}'
+
+  'console log':
+    'prefix':'console log'
+    'body':'console.log(${1});'

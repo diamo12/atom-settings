@@ -1,0 +1,26 @@
+"*":
+  core:
+    audioBeep: false
+    closeDeletedFileTabs: true
+    openEmptyEditorOnStart: false
+    projectHome: "C:\\Users\\ql735\\Cummins"
+    telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "base16-tomorrow-dark-theme"
+    ]
+    uriHandlerRegistration: "always"
+  editor:
+    fontSize: 11
+    invisibles: {}
+    showIndentGuide: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+    tabType: "soft"
+  "exception-reporting":
+    userId: "758f287e-88ba-4e68-9249-9bd410d0bd19"
+  welcome:
+    showOnStartup: false
+".jsdoc.source":
+  editor:
+    softWrap: false
